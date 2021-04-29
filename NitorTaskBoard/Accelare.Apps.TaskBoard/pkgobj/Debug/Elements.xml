@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ClientWebPart Name="TaskBoardAppPart" Title="TaskBoardAppPart" Description="SharePoint List based Task Board App Part" DefaultWidth="1000" DefaultHeight="600">
+
+    <!-- Content element identifies the location of the page that will render inside the client web part
+         Properties are referenced on the query string using the pattern _propertyName_
+         Example: Src="~appWebUrl/Pages/ClientWebPart1.aspx?Property1=_property1_" -->
+    <Content Type="html" Src="~appWebUrl/Pages/TaskBoardAppPart.aspx?{StandardTokens}&amp;ListName=_ListName_&amp;ViewName=_ViewName_&amp;ItemHealth=_ItemHealth_&amp;ColumnOne=_ColumnOne_&amp;ColumnTwo=_ColumnTwo_" />
+
+    <!-- Define properties in the Properties element.
+         Remember to put Property Name on the Src attribute of the Content element above. -->
+    <Properties>  
+    <Property Name="ListName" Type="string" WebBrowsable="true" WebDisplayName="List Name" WebDescription="Specify List Display Name" WebCategory="Task Board Properties" DefaultValue="" RequiresDesignerPermission="true" />
+    <Property Name="ViewName" Type="string" WebBrowsable="true" WebDisplayName="View Name" WebDescription="Specify View Display Name" WebCategory="Task Board Properties" DefaultValue="" RequiresDesignerPermission="true" />
+    <Property Name="ItemHealth" Type="string" WebBrowsable="true" WebDisplayName="Item Health Column Internal Name" WebDescription="Specify Item Health Column Internal Name" WebCategory="Task Board Properties" DefaultValue="ItemHealth" RequiresDesignerPermission="true" />
+    <Property Name="ColumnOne" Type="string" WebBrowsable="true" WebDisplayName="Column 1 Internal Name" WebDescription="Specify Column Internal Name" WebCategory="Task Board Properties" DefaultValue="AssignedTo" RequiresDesignerPermission="true" />
+    <Property Name="ColumnTwo" Type="string" WebBrowsable="true" WebDisplayName="Column 2 Internal Name" WebDescription="Specify Column Two" WebCategory="Task Board Properties" DefaultValue="DueDate" RequiresDesignerPermission="true" />
+    </Properties>
+  </ClientWebPart>
+</Elements>

@@ -1,0 +1,1 @@
+c:\users\sp-acl\documents\visual studio 2013\Projects\Accelare.Apps.TaskBoard\Accelare.Apps.TaskBoard\bin\Debug\app.publish\1.0.0.2\Accelare.Apps.TaskBoard.app

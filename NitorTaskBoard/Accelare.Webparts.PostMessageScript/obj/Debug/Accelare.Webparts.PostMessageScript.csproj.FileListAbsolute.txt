@@ -1,0 +1,5 @@
+c:\users\sp-acl\documents\visual studio 2013\Projects\Accelare.Apps.TaskBoard\Accelare.Webparts.PostMessageScript\bin\Debug\Accelare.Webparts.PostMessageScript.dll
+c:\users\sp-acl\documents\visual studio 2013\Projects\Accelare.Apps.TaskBoard\Accelare.Webparts.PostMessageScript\bin\Debug\Accelare.Webparts.PostMessageScript.pdb
+c:\users\sp-acl\documents\visual studio 2013\Projects\Accelare.Apps.TaskBoard\Accelare.Webparts.PostMessageScript\obj\Debug\Accelare.Webparts.PostMessageScript.csprojResolveAssemblyReference.cache
+c:\users\sp-acl\documents\visual studio 2013\Projects\Accelare.Apps.TaskBoard\Accelare.Webparts.PostMessageScript\obj\Debug\Accelare.Webparts.PostMessageScript.dll
+c:\users\sp-acl\documents\visual studio 2013\Projects\Accelare.Apps.TaskBoard\Accelare.Webparts.PostMessageScript\obj\Debug\Accelare.Webparts.PostMessageScript.pdb

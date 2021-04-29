@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="434fd6a8-ebde-472f-943c-b9037a6a8819" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="Accelare.Webparts.PostMessageScript.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="Accelare.Webparts.PostMessageScript, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8490f979c2d41309" Namespace="Accelare.Webparts.PostMessageScript.PostMessageScript" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="Accelare.Webparts.PostMessageScript_Modules\Feature.xml" />
+    <FeatureManifest Location="Accelare.Webparts.PostMessageScript\Feature.xml" />
+  </FeatureManifests>
+</Solution>

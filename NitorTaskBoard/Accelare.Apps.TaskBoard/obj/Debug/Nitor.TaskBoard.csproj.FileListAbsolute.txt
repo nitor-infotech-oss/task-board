@@ -1,0 +1,4 @@
+D:\Clubbed Data\DATA\NitorTaskBoard\Accelare.Apps.TaskBoard\bin\Debug\Accelare.Apps.TaskBoard.pdb
+D:\Clubbed Data\DATA\NitorTaskBoard\Accelare.Apps.TaskBoard\obj\Debug\Nitor.TaskBoard.csproj.CoreCompileInputs.cache
+D:\Clubbed Data\DATA\NitorTaskBoard\Accelare.Apps.TaskBoard\obj\Debug\Accelare.Apps.TaskBoard.dll
+D:\Clubbed Data\DATA\NitorTaskBoard\Accelare.Apps.TaskBoard\obj\Debug\Accelare.Apps.TaskBoard.pdb

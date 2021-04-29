@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Accelare List &amp; Modules Feature" Id="6efca160-2e75-4541-be65-7477ca33eb56" Scope="Web" Title="Accelare List &amp; Modules">
+  <ElementManifests>
+    <ElementManifest Location="Accelare Assets\Elements.xml" />
+    <ElementManifest Location="Custom Modules\Elements.xml" />
+    <ElementFile Location="Custom Modules\PostMessageScript.js" />
+    <ElementFile Location="Custom Modules\jquery-1.9.1.min.js" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Images\" Type="ElementManifest" />
+    <ProjectItemFile Source="AppIcon.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="RefreshBtn.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="RefreshBtn1.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Accelare.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="priority.jpg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="AccelareImg.jpg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Green.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="Red.png" Target="Images\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

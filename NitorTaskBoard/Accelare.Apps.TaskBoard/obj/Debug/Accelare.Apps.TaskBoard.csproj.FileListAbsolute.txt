@@ -1,0 +1,8 @@
+c:\users\sp-acl\documents\visual studio 2013\Projects\Accelare.Apps.TaskBoard\Accelare.Apps.TaskBoard\bin\Debug\Accelare.Apps.TaskBoard.pdb
+c:\users\sp-acl\documents\visual studio 2013\Projects\Accelare.Apps.TaskBoard\Accelare.Apps.TaskBoard\obj\Debug\Accelare.Apps.TaskBoard.dll
+c:\users\sp-acl\documents\visual studio 2013\Projects\Accelare.Apps.TaskBoard\Accelare.Apps.TaskBoard\obj\Debug\Accelare.Apps.TaskBoard.pdb
+D:\Clubbed Data\DATA\NitorTaskBoard\Accelare.Apps.TaskBoard\bin\Debug\Accelare.Apps.TaskBoard.pdb
+D:\Clubbed Data\DATA\NitorTaskBoard\Accelare.Apps.TaskBoard\obj\Debug\Accelare.Apps.TaskBoard.csprojAssemblyReference.cache
+D:\Clubbed Data\DATA\NitorTaskBoard\Accelare.Apps.TaskBoard\obj\Debug\Accelare.Apps.TaskBoard.csproj.CoreCompileInputs.cache
+D:\Clubbed Data\DATA\NitorTaskBoard\Accelare.Apps.TaskBoard\obj\Debug\Accelare.Apps.TaskBoard.dll
+D:\Clubbed Data\DATA\NitorTaskBoard\Accelare.Apps.TaskBoard\obj\Debug\Accelare.Apps.TaskBoard.pdb

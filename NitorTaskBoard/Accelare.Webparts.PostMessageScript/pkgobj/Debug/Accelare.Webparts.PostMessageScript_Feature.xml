@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="Accelare  Script Webpart" Id="693f3e6c-21c5-45bc-8b27-e1ea12a727be" Scope="Site" Title="Accelare Script Webpart">
+  <ElementManifests>
+    <ElementManifest Location="PostMessageScript\Elements.xml" />
+    <ElementFile Location="PostMessageScript\PostMessageScript.webpart" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Images">
+    <File Path="Images\AppIcon.png" Url="Images/AppIcon.png" ReplaceContent="TRUE" />
+    <File Path="Images\RefreshBtn.png" Url="Images/RefreshBtn.png" ReplaceContent="TRUE" />
+    <File Path="Images\RefreshBtn1.png" Url="Images/RefreshBtn1.png" ReplaceContent="TRUE" />
+    <File Path="Images\Accelare.png" Url="Images/Accelare.png" ReplaceContent="TRUE" />
+    <File Path="Images\priority.jpg" Url="Images/priority.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\AccelareImg.jpg" Url="Images/AccelareImg.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\Green.png" Url="Images/Green.png" ReplaceContent="TRUE" />
+    <File Path="Images\Red.png" Url="Images/Red.png" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

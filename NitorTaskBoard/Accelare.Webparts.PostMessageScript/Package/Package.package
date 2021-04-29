@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="434fd6a8-ebde-472f-943c-b9037a6a8819" solutionId="434fd6a8-ebde-472f-943c-b9037a6a8819" resetWebServer="false" sharePointProductVersion="15.0" name="Accelare.Webparts.PostMessageScript" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="31d0cfff-4723-476a-8044-e172dddc502d" />
+    <featureReference itemId="5cb4e1ea-5cd1-4ede-8eb7-6ea81cddcb30" />
+  </features>
+</package>

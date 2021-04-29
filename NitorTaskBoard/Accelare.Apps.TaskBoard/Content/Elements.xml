@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
+    <File Path="Content\Fonts\font-awesome.min.css" Url="Content/Fonts/font-awesome.min.css" ReplaceContent="TRUE" />
+    <File Path="Content\Fonts\fontawesome-webfont.eot" Url="Content/Fonts/fontawesome-webfont.eot" ReplaceContent="TRUE" />
+    <File Path="Content\Fonts\fontawesome-webfont.svg" Url="Content/Fonts/fontawesome-webfont.svg" ReplaceContent="TRUE" />
+    <File Path="Content\Fonts\fontawesome-webfont.ttf" Url="Content/Fonts/fontawesome-webfont.ttf" ReplaceContent="TRUE" />
+    <File Path="Content\Fonts\fontawesome-webfont.woff" Url="Content/Fonts/fontawesome-webfont.woff" ReplaceContent="TRUE" />
+    <File Path="Content\Fonts\fontawesome-webfont.woff2" Url="Content/Fonts/fontawesome-webfont.woff2" ReplaceContent="TRUE" />
+    <File Path="Content\style.css" Url="Content/style.css" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

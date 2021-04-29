@@ -1,0 +1,280 @@
+div {
+    margin: 0 auto;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+    font-family: "Segoe UI", Helvetica, Arial,sans-serif;
+    color: #444;
+}
+
+a {
+    transition: all 300ms ease 0s;
+    color: #19b5fe;
+}
+
+    a:hover, a:active {
+        text-decoration: none;
+    }
+
+
+/* header CSS  Start*/
+
+.header-wrapper {
+    background-color: #E2EEFA;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+}
+
+    .title.left {
+        /* Safari */
+        -webkit-transform: rotate(-90deg);
+        /* Firefox */
+        -moz-transform: rotate(-90deg);
+        /* IE */
+        -ms-transform: rotate(-90deg);
+        /* Opera */
+        -o-transform: rotate(-90deg);
+        /* Internet Explorer */
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+        display: block;
+        position: absolute;
+        left: -50px;
+        top: 50%;
+        color: #000000;
+        font-weight: bold;
+        z-index: 999;
+    }
+
+.taskboard-container-main {
+    /*overflow: auto;
+	max-height: 600px;*/
+}
+
+.parent-wrapper {
+    /*max-width: 1016px;*/
+    /*max-height: 550px;*/
+    /*position: relative;*/
+    /*margin: auto;
+	overflow: auto;*/
+}
+
+.task-board-area {
+    display: table;
+    overflow: hidden;
+    /*width: 100%;*/
+    margin-left: 15px;
+}
+
+    .task-board-area .row {
+        display: table-row;
+    }
+
+    .task-board-area ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .task-board-area .cell {
+        border: 1px solid #FFF;
+        border-bottom: 1px solid #E6E6E6;
+        display: table-cell;
+        vertical-align: top;
+        width: 245px;
+        position: relative;
+    }
+
+.cell.connectedSortable {
+    min-width: 245px;
+    height: 100px;
+}
+
+.task-board-area .row .cell {
+    /* background-color: #b3d1d9; */
+    border-right: 2px solid #E6E6E6;
+}
+
+.task-board-area .row:nth-child(2) .cell {
+    /* background-color:  #FFFFFF; */
+    border-right: 1px solid #E6E6E6;
+}
+
+.task-board-area .row:nth-child(3) .cell {
+    background-color: #FFFFFF;
+    border-right: 1px solid #E6E6E6;
+}
+
+.task-board-area .row:nth-child(4) .cell {
+    /*background-color:  #FFFFFF;*/
+    border-right: 2px solid #E6E6E6;
+}
+
+.task-board-area .row.top .cell {
+    height: 20px;
+    text-align: center;
+    font-weight: 600;
+    background: black;
+    padding: 10px 0px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.task-board-area .row .cell.left {
+    width: 6%;
+    text-align: center;
+    font-weight: 600;
+    background: none;
+    vertical-align: middle;
+    background: none;
+}
+
+.task-board-area .cell.left span {
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    /* Opera */
+    -o-transform: rotate(-90deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    color: #999;
+    font-size: 14px;
+}
+
+.row-top {
+    text-align: right;
+}
+
+.cell-top {
+    display: inline-block;
+    width: 200px;
+}
+
+.task-board-area .cell .connectedSortable {
+    position: relative;
+    min-height: 95px;
+}
+
+.task-board-area .cell .item {
+    display: inline-block;
+    vertical-align: top;
+    min-width: 91px;
+    width: 38%;
+    height: 75px;
+    padding: 7px;
+    font-size: 12px;
+    margin: 4px;
+    background-color: #FFF;
+    border: 1px solid transparent;
+    position: relative;
+    border-radius: 4px;
+    border-color: #E6E6E6;
+    border-style: solid;
+    border-width: 2px;
+}
+
+    .task-board-area .cell .item h5 {
+        margin: 0;
+        font-size: 12px;
+        color: #000000;
+        height: 35px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .task-board-area .cell .item h4 {
+        margin: 0;
+        margin-top: 5px;
+        font-weight: 600;
+        color: #666666;
+        height: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+        .task-board-area .cell .item h4:before {
+            /*content: "- "*/
+        }
+
+    .task-board-area .cell .item p {
+        margin: 0;
+        position: absolute;
+        bottom: 2px;
+        right: 5px;
+        color: #A98307;
+        font-size: smaller;
+        height: 15px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+.ui-state-highlight {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: top;
+    min-width: 93px;
+    width: 41%;
+    height: 75px;
+    padding: 5px;
+    font-size: 12px;
+    margin: 4px;
+    border: 1px dashed black;
+    border-radius: 4px;
+}
+
+#imgRefresh {
+    margin-left: 15px;
+    cursor: hand;
+}
+
+#spanPageTitle {
+    vertical-align: top;
+    cursor: hand;
+}
+
+.hide-all {
+    display: none;
+}
+
+.about {
+    font-size: 2.77em;
+}
+
+.columnTwo {
+    /* position: absolute; */
+    right: 5px;
+    text-align: right;
+    bottom: 5px;
+    overflow: hidden;
+    width: 100px;
+    /* display: block; */
+    text-overflow: ellipsis;
+    height: 17px;
+    color: #BB8A4C;
+    font-size: 11px;
+    padding-left: 30px;
+}
+
+.demoReadyImg {
+    height: 10px;
+    float: right;
+    margin-top: 4px;
+}

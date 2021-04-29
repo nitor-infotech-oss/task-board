@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Custom Modules" Url="Lists/Accelare Assets/Accelare">
+    <File Path="Custom Modules\PostMessageScript.js" Url="PostMessageScript.js" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+    <File Path="Custom Modules\jquery-1.9.1.min.js" Url="jquery-1.9.1.min.js" Type="GhostableInLibrary" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

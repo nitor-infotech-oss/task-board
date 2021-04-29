@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="df35d345-e63d-4727-a584-52f9db530f39" 
+        solutionId="df35d345-e63d-4727-a584-52f9db530f39" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="Accelare.Apps.TaskBoard"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="8a8ff0ef-8f49-4e14-a356-3b8ff3fbdf84" />
+  </features>
+</package>

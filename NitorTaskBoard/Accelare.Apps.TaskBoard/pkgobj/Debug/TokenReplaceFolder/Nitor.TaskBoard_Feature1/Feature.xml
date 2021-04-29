@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint App Feature" Id="8a8ff0ef-8f49-4e14-a356-3b8ff3fbdf84" Scope="Web" Title="Accelare.Apps.TaskBoard Feature" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\Default.aspx" />
+    <ElementFile Location="Pages\TaskBoardAppPart.aspx" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\App.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.min.map" />
+    <ElementFile Location="Scripts\jquery-1.9.1.min.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.intellisense.js" />
+    <ElementFile Location="Scripts\angular.min.js" />
+    <ElementFile Location="Scripts\bootstrap.min.js" />
+    <ElementFile Location="Scripts\html5shiv.min.js" />
+    <ElementFile Location="Scripts\jquery.ddslick.min.js" />
+    <ElementFile Location="Scripts\jquery.min.js" />
+    <ElementFile Location="Scripts\jquery-ui.js" />
+    <ElementFile Location="Scripts\jquery-ui.min.js" />
+    <ElementFile Location="Scripts\respond.min.js" />
+    <ElementFile Location="Scripts\jquery-ui-1.12.1.min.js" />
+    <ElementFile Location="Scripts\angular-1.7.8.min.js" />
+    <ElementFile Location="Scripts\jquery-3.4.1.min.js" />
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementFile Location="Content\App.css" />
+    <ElementFile Location="Content\Fonts\font-awesome.min.css" />
+    <ElementFile Location="Content\Fonts\fontawesome-webfont.eot" />
+    <ElementFile Location="Content\Fonts\fontawesome-webfont.svg" />
+    <ElementFile Location="Content\Fonts\fontawesome-webfont.ttf" />
+    <ElementFile Location="Content\Fonts\fontawesome-webfont.woff" />
+    <ElementFile Location="Content\Fonts\fontawesome-webfont.woff2" />
+    <ElementFile Location="Content\style.css" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementFile Location="Images\AppIcon.png" />
+    <ElementFile Location="Images\RefreshBtn.png" />
+    <ElementFile Location="Images\RefreshBtn1.png" />
+    <ElementFile Location="Images\Accelare.png" />
+    <ElementFile Location="Images\priority.jpg" />
+    <ElementFile Location="Images\AccelareImg.jpg" />
+    <ElementFile Location="Images\Green.png" />
+    <ElementFile Location="Images\Red.png" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Scripts\Elements.xml" />
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>
